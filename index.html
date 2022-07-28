@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="logos" >
+      <div class="logocaja">  <img src="imagenes/muni25.jfif" alt="muni" style="border-radius: 10px;"></div>
+      <div class="logocaja"> <img src="imagenes/ministerio.png" alt="minis" style="width: 150px ;"></div>
+      <div class="logocaja"> <img src="imagenes/isfd.28.jfif" alt="isfd" style="border-radius: 10px"></div>
+      
+    </div>
+  <div class="inicio1">
+    <h1 id="title" class="titulo1"> Formulario Estudiantes <h1>
+      <p id="description" class="parrafo1">Preinscripción  al Instituto de Formación Docente y Técnica Nº 28 </p>
+  </div>
+ 
+  <form id="survey-form"  class="formulario">
+    <h3>Datos Personales:</h3>
+    <fieldset class="parte1">
+        <label id="name-label"> Nombre: <input type="text" id="name" placeholder="Nombre"  required /></label><br>
+        <label id="name-label">Apellido: <input type="text" id="Apellido" placeholder="Apellido"  required /></label><br>
+        <label id="email-label"> Email: <input type="Email" id="email" required minlength="8" placeholder="Email"  /></label><br>
+          <label id="number-label">Edad: <input type="number" id="number" min="13" max="120" placeholder="Edad" /><br><br>
+          <label class="parte1" style="padding:0px 0px 18px ;"> Sexo: <select name=""  class="sex1">
+            <option value="cero">(Seleccionar uno)</option>
+            <option value="uno">Femenino</option>
+            <option value="dos">Masculino</option>
+            <option value="otro">Otro</option>
+          </select></label>  
+      <label style="margin: 0px;">Teléfono <input type="number" id="telefono"   placeholder="Telefono" /><br><br>
+    </fieldset>
+    <fieldset class="parte2"><br>
+      <label > Nacionalidad: <input type="text" id="nacionalidad" placeholder="Nacionalidad"  required /></label>
+      <label > Provincia: <input type="text" id="name" placeholder="Provincia"  required /></label>
+      <label > Localidad: <input type="text" id="name" placeholder="Localidad"  required /></label>
+      <label > Direccion: <input type="text" id="name" placeholder="Direccion"  required /></label><br>
+      <label >Codigo Postal: <input type="number" id="number" min="13" max="120" placeholder="Codigo Postal" /><br><br>
+      
+      </fieldset>
+    <fieldset class="sedes">
+      <h3>Sede 25 de Mayo</h3>
+           </label class="letra"><h3 class="subtitulo"> Carreras Docentes:</h3> <br>
+               <label><input type="radio"value="A" name="opciones" />Profesorado de Educación Primaria (Res.4154/2007) </label><br>
+                <label><input type="radio" value="CS" name="opciones" />Profesorado de Educación Secundaria en Química (Res. 22/03 | 2789/09) </label><br>
+                <label><input type="radio" value="I" name="opciones" />Profesorado de Educación Secundaria en Historia (Res. 26/03 | 2789/09)</label><br>
+                <label><input type="radio" value="D" name="opciones" />Profesorado de Educación Secundaria en Lengua y Literatura (Res.1862/2017) </label><br>
+                <label><input type="radio" value="I" name="opciones" />Profesorado de Educación Secundaria en Matemática (Res.1861/2017)</label><br><br>
+
+             </label>
+        <label > <h3 class="subtitulo">Carreras Tecnicas: </h3> <br>
+
+            <label><input type="radio"value="A" name="opciones" />Tecnicatura Superior en Desarrollo de Software (Res. 5847/2019) </label><br>
+              <label><input type="radio" value="CS" name="opciones" />Tecnicatura Superior en Higiene y Seguridad en el Trabajo (Res. 320/2013) </label><br>
+              <label><input type="radio" value="I" name="opciones" />Tecnicatura Superior en Administración General (Res. 261/2003)</label><br>
+              <label><input type="radio" value="D" name="opciones" />Tecnicatura Superior en Psicopedagogía (Res. 2460/2011) </label><br>
+                <br>
+           </label> 
+
+           <p>Para descargar la <a href="https://isfdyt28-bue.infd.edu.ar/sitio/wp-content/uploads/2021/12/A1-Ficha-de-Inscripcion.pdf" target="_blank">Planilla de Inscripcion</a></p>
+           <br>
+            <textarea class="comentario" name="bio" rows="5" value="texto" cols="50" placeholder="Comentarios."></textarea>
+             
+            <input class="enviar" type="submit" id="submit" value="Enviar" />
+      </fieldset>
+       
+   
+  
+  </form>
+  <br><br><br>
+</body>
+    </html>
+</html>
