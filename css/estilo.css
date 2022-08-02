@@ -35,22 +35,8 @@ img.ministerio{
     display: inline-block;
 
 }
-@media screen and (min-widt:960px) and(max-width: 1328px){
-    .logos{                               /* Logos */
-        max-width: max-content;
-        margin: 1em auto;
-       border: 8px double rgb(152, 19, 19);
-       background-color: rgb(222, 211, 197); 
-    }
-    .logocaja img{                       /* Logos */
-        width: 90px;
-        margin: 10px 80px;
-        border-radius: 5px;
-    }
-    .logos .logocaja{                     /* Logos */
-        display: inline-block;
-    }
-}
+
+
 
 .inicio1{                           /* text Inicio */
     width: 900px;
@@ -89,6 +75,7 @@ h1, p{                               /* text Inicio */
 }
 
 
+
 fieldset{
     border-left: none;
     border-right: none;
@@ -100,7 +87,7 @@ fieldset:not(:last-of-type) {
     
 }
 .formulario{
-    max-width: 50%;
+    max-width: 60%;
     margin: 0 auto;
     background-color: rgb(114, 82, 141);
     color: aliceblue;
@@ -193,6 +180,22 @@ a{
 
 
 
+@media screen and (min-widt:960px) and(max-width: 1328px){
+    .logos{                               /* Logos */
+        max-width: max-content;
+        margin: 1em auto;
+       border: 8px double rgb(152, 19, 19);
+       background-color: rgb(222, 211, 197); 
+    }
+    .logocaja img{                       /* Logos */
+        width: 90px;
+        margin: 10px 80px;
+        border-radius: 5px;
+    }
+    .logos .logocaja{                     /* Logos */
+        display: inline-block;
+    }
+}
 
 
 @media screen and (min-width: 481px) and (max-width: 959px){
